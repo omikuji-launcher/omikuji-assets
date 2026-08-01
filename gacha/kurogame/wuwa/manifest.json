@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "kurogame.wuwa",
+  "publisher_slug": "kurogame",
+  "game_slug": "wuwa",
+  "display_name": "Wuthering Waves",
+  "publisher": "Kuro Games",
+  "install_strategy": "kuro_resource_index",
+  "app_id_prefix": "wuwa",
+  "editions": [
+    {
+      "id": "global",
+      "label": "Global",
+      "exe_name": "Client/Binaries/Win64/Client-Win64-Shipping.exe",
+      "data_folder": "Client/Content",
+      "strategy_config": {
+        "index_url": "https://prod-alicdn-gamestarter.kurogame.com/launcher/game/G153/50004_obOHXFrFanqsaIEOmuKroCcbZkQRBC7c/index.json"
+      }
+    },
+    {
+      "id": "china",
+      "label": "China",
+      "exe_name": "Client/Binaries/Win64/Client-Win64-Shipping.exe",
+      "data_folder": "Client/Content",
+      "strategy_config": {
+        "index_url": "https://prod-alicdn-gamestarter.kurogame.com/launcher/game/G153/50009_ZXniDENS4vnMhNEhl7cLOQMojTLKLGgu/index.json"
+      }
+    }
+  ],
+  "voice_locales": [],
+  "default_library_template": "{home}/Games/KuroGames",
+  "install_folder_name": "Wuthering Waves",
+  "category": "Kuro Games",
+  "launch_patch": "",
+  "anti_cheat": "ACE",
+  "runner_preference": ["dwproton"],
+  "telemetry_block": [],
+  "letter_fallback": "W",
+  "uses_temp_dir": false
+}
