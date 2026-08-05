@@ -23,7 +23,6 @@
       "strategy_config": { "biz_id": "osvnlOc0S8" }
     }
   ],
-  "strategy_config": { "needs_jadeite": false },
   "uses_temp_dir": false,
   "voice_locales": [
     { "id": "en-us", "label": "English", "folder_name": "English(US)" },
@@ -36,7 +35,6 @@
   "category": "HoYoverse",
   "launch_patch": "",
   "anti_cheat": "miHoYoProtect",
-  "runner_preference": ["dwproton"],
   "telemetry_block": [
     "log-upload-os.hoyoverse.com",
     "sg-public-data-api.hoyoverse.com",

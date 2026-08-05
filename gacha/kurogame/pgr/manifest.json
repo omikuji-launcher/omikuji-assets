@@ -33,7 +33,6 @@
   "category": "Kuro Games",
   "launch_patch": "",
   "anti_cheat": "ACE",
-  "runner_preference": ["dwproton", "wine-ge i love wine ge wine ge"],
   "telemetry_block": [],
   "letter_fallback": "P",
   "uses_temp_dir": false

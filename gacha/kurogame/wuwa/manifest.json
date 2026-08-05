@@ -33,7 +33,6 @@
   "category": "Kuro Games",
   "launch_patch": "",
   "anti_cheat": "ACE",
-  "runner_preference": ["dwproton"],
   "telemetry_block": [],
   "letter_fallback": "W",
   "uses_temp_dir": false

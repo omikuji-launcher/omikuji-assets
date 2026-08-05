@@ -41,7 +41,6 @@
   "category": "Gryphline",
   "launch_patch": "",
   "anti_cheat": "ACE",
-  "runner_preference": ["dwproton"],
   "telemetry_block": [],
   "letter_fallback": "A"
 }
