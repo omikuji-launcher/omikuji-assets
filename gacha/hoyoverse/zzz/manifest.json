@@ -42,5 +42,9 @@
     "log-upload-os.hoyoverse.com",
     "sg-public-data-api.hoyoverse.com"
   ],
+  "env": {
+    "WINE_ENABLE_TIMEOUT_FIX": "1",
+    "UMU_USE_STEAM": "1"
+  },
   "letter_fallback": "Z"
 }
