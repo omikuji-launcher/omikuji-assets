@@ -32,6 +32,15 @@
   ],
   "default_library_template": "{home}/Games/HoYo",
   "install_folder_name": "Genshin Impact",
+  "alongside": {
+    "name": "fpsunlock",
+    "label": "FPS Unlocker",
+    "repo": "https://codeberg.org/mkrsym1/fpsunlock",
+    "exe": "fpsunlock.exe",
+    "args": ["120"],
+    "when": "after",
+    "delay": 5
+  },
   "category": "HoYoverse",
   "launch_patch": "",
   "anti_cheat": "miHoYoProtect",
