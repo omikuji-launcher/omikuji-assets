@@ -1,26 +1,25 @@
 {
   "schema_version": 1,
-  "id": "hoyoverse.genshin",
-  "publisher_slug": "hoyoverse",
-  "game_slug": "genshin",
-  "display_name": "Genshin Impact",
+  "id": "hoyoverse.zzz",
+  "game_slug": "zzz",
+  "display_name": "Zenless Zone Zero",
   "publisher": "HoYoverse",
   "install_strategy": "hoyo_sophon",
-  "app_id_prefix": "genshin",
+  "app_id_prefix": "zzz",
   "editions": [
     {
       "id": "global",
       "label": "Global",
-      "exe_name": "GenshinImpact.exe",
-      "data_folder": "GenshinImpact_Data",
-      "strategy_config": { "biz_id": "gopR6Cufr3" }
+      "exe_name": "ZenlessZoneZero.exe",
+      "data_folder": "ZenlessZoneZero_Data",
+      "strategy_config": { "biz_id": "U5hbdsT9W7" }
     },
     {
       "id": "china",
       "label": "China",
-      "exe_name": "YuanShen.exe",
-      "data_folder": "YuanShen_Data",
-      "strategy_config": { "biz_id": "1Z8W5NHUQb" }
+      "exe_name": "ZenlessZoneZero.exe",
+      "data_folder": "ZenlessZoneZero_Data",
+      "strategy_config": { "biz_id": "x6znKlJ0xK" }
     }
   ],
   "uses_temp_dir": false,
@@ -31,23 +30,18 @@
     { "id": "zh-cn", "label": "Chinese", "folder_name": "Chinese" }
   ],
   "default_library_template": "{home}/Games/HoYo",
-  "install_folder_name": "Genshin Impact",
-  "alongside": {
-    "name": "fpsunlock",
-    "label": "FPS Unlocker",
-    "repo": "https://codeberg.org/mkrsym1/fpsunlock",
-    "exe": "fpsunlock.exe",
-    "args": ["120"],
-    "when": "after",
-    "delay": 5
-  },
+  "install_folder_name": "Zenless Zone Zero",
   "category": "HoYoverse",
   "launch_patch": "",
   "anti_cheat": "miHoYoProtect",
   "telemetry_block": [
+    "zzz-log-upload-os.hoyoverse.com",
     "log-upload-os.hoyoverse.com",
-    "overseauspider.yuanshen.com",
     "sg-public-data-api.hoyoverse.com"
   ],
-  "letter_fallback": "G"
+  "env": {
+    "WINE_ENABLE_TIMEOUT_FIX": "1",
+    "UMU_USE_STEAM": "1"
+  },
+  "letter_fallback": "Z"
 }

@@ -1,12 +1,11 @@
 {
   "schema_version": 1,
-  "id": "yostar.arknights",
-  "publisher_slug": "yostar",
-  "game_slug": "arknights",
-  "display_name": "Arknights",
+  "id": "yostar.stella-sora",
+  "game_slug": "stella-sora",
+  "display_name": "Stella Sora",
   "publisher": "Yostar",
   "install_strategy": "yostar_file_index",
-  "app_id_prefix": "arknights-yostar",
+  "app_id_prefix": "stella-sora",
   "uses_temp_dir": false,
   "strategy_config": {
     "salt": "DE7108E9B2842FD460F4777702727869"
@@ -15,45 +14,45 @@
     {
       "id": "global",
       "label": "Global (EN)",
-      "exe_name": "Arknights.exe",
-      "data_folder": "Arknights_Data",
+      "exe_name": "StellaSora.exe",
+      "data_folder": "StellaSora_Data",
       "strategy_config": {
         "api_url": "https://api-launcher-en.yo-star.com",
-        "cdn_url": "https://launcher-pkg-ark-en.yo-star.com",
-        "game_tag": "Arknights_EN"
+        "cdn_url": "https://launcher-pkg-ss-en.yo-star.com",
+        "game_tag": "StellaSora_EN"
       }
     },
     {
       "id": "japan",
       "label": "Japan (JP)",
-      "exe_name": "Arknights.exe",
-      "data_folder": "Arknights_Data",
+      "exe_name": "StellaSora.exe",
+      "data_folder": "StellaSora_Data",
       "strategy_config": {
         "api_url": "https://api-launcher-jp.yo-star.com",
-        "cdn_url": "https://launcher-pkg-ark-jp.yo-star.com",
-        "game_tag": "Arknights_JP"
+        "cdn_url": "https://launcher-pkg-ss-jp.yo-star.com",
+        "game_tag": "StellaSora_JP"
       }
     },
     {
       "id": "korea",
       "label": "Korea (KR)",
-      "exe_name": "Arknights.exe",
-      "data_folder": "Arknights_Data",
+      "exe_name": "StellaSora.exe",
+      "data_folder": "StellaSora_Data",
       "strategy_config": {
         "api_url": "https://api-launcher-kr.yo-star.com",
-        "cdn_url": "https://launcher-pkg-ark-kr.yo-star.com",
-        "game_tag": "Arknights_KR"
+        "cdn_url": "https://launcher-pkg-ss-kr.yo-star.com",
+        "game_tag": "StellaSora_KR"
       }
     }
   ],
   "voice_locales": [],
   "default_library_template": "{home}/Games",
-  "install_folder_name": "Arknights",
+  "install_folder_name": "StellaSora",
   "category": "Yostar",
   "launch_patch": "",
-  "anti_cheat": "",
+  "anti_cheat": "ACE",
   "runner": "",
   "telemetry_block": [],
   "env": {},
-  "letter_fallback": "A"
+  "letter_fallback": "S"
 }

@@ -1,14 +1,14 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "gachas": [
-    { "publisher": "hoyoverse", "game": "genshin" },
-    { "publisher": "hoyoverse", "game": "star-rail" },
-    { "publisher": "hoyoverse", "game": "zzz" },
-    { "publisher": "hoyoverse", "game": "honkai-impact" },
-    { "publisher": "kurogame", "game": "wuwa" },
-    { "publisher": "kurogame", "game": "pgr" },
-    { "publisher": "yostar", "game": "arknights" },
-    { "publisher": "yostar", "game": "stella-sora" },
-    { "publisher": "hypergryph", "game": "endfield" }
+    "genshin",
+    "star-rail",
+    "zzz",
+    "honkai-impact",
+    "wuwa",
+    "pgr",
+    "arknights",
+    "stella-sora",
+    "endfield"
   ]
 }

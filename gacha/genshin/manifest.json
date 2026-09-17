@@ -1,26 +1,25 @@
 {
   "schema_version": 1,
-  "id": "hoyoverse.honkai-impact",
-  "publisher_slug": "hoyoverse",
-  "game_slug": "honkai-impact",
-  "display_name": "Honkai Impact 3rd",
+  "id": "hoyoverse.genshin",
+  "game_slug": "genshin",
+  "display_name": "Genshin Impact",
   "publisher": "HoYoverse",
   "install_strategy": "hoyo_sophon",
-  "app_id_prefix": "honkai-impact",
+  "app_id_prefix": "genshin",
   "editions": [
     {
       "id": "global",
       "label": "Global",
-      "exe_name": "BH3.exe",
-      "data_folder": "BH3_Data",
-      "strategy_config": { "biz_id": "5TIVvvcwtM" }
+      "exe_name": "GenshinImpact.exe",
+      "data_folder": "GenshinImpact_Data",
+      "strategy_config": { "biz_id": "gopR6Cufr3" }
     },
     {
       "id": "china",
       "label": "China",
-      "exe_name": "BH3.exe",
-      "data_folder": "BH3_Data",
-      "strategy_config": { "biz_id": "osvnlOc0S8" }
+      "exe_name": "YuanShen.exe",
+      "data_folder": "YuanShen_Data",
+      "strategy_config": { "biz_id": "1Z8W5NHUQb" }
     }
   ],
   "uses_temp_dir": false,
@@ -31,14 +30,23 @@
     { "id": "zh-cn", "label": "Chinese", "folder_name": "Chinese" }
   ],
   "default_library_template": "{home}/Games/HoYo",
-  "install_folder_name": "Honkai Impact 3rd",
+  "install_folder_name": "Genshin Impact",
+  "alongside": {
+    "name": "fpsunlock",
+    "label": "FPS Unlocker",
+    "repo": "https://codeberg.org/mkrsym1/fpsunlock",
+    "exe": "fpsunlock.exe",
+    "args": ["120"],
+    "when": "after",
+    "delay": 5
+  },
   "category": "HoYoverse",
   "launch_patch": "",
   "anti_cheat": "miHoYoProtect",
   "telemetry_block": [
     "log-upload-os.hoyoverse.com",
-    "sg-public-data-api.hoyoverse.com",
-    "bh3-log-upload-os.hoyoverse.com"
+    "overseauspider.yuanshen.com",
+    "sg-public-data-api.hoyoverse.com"
   ],
-  "letter_fallback": "H"
+  "letter_fallback": "G"
 }
