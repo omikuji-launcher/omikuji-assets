@@ -31,13 +31,18 @@
   ],
   "default_library_template": "{home}/Games/HoYo",
   "install_folder_name": "Honkai Star Rail",
-  "alongside": {
-    "name": "hsrfps",
-    "label": "120 FPS",
-    "repo": "https://github.com/reakjra/hsrfps",
-    "exe": "hsrfps.exe",
-    "when": "before"
-  },
+  "options": [
+    {
+      "id": "hsrfps",
+      "label": "120 FPS",
+      "alongside": {
+        "name": "hsrfps",
+        "repo": "https://github.com/reakjra/hsrfps",
+        "exe": "hsrfps.exe",
+        "when": "before"
+      }
+    }
+  ],
   "category": "HoYoverse",
   "launch_patch": "",
   "runner": "https://dawn.wine/dawn-winery/dwproton/releases/tag/dwproton-11.0-10",

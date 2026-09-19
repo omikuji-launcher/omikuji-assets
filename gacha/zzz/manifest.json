@@ -31,6 +31,14 @@
   ],
   "default_library_template": "{home}/Games/HoYo",
   "install_folder_name": "Zenless Zone Zero",
+  "options": [
+    {
+      "id": "dx12",
+      "label": "DirectX 12",
+      "description": "Enables DX12 support",
+      "args": ["-use-d3d12"]
+    }
+  ],
   "category": "HoYoverse",
   "launch_patch": "",
   "anti_cheat": "miHoYoProtect",
