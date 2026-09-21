@@ -45,7 +45,7 @@
   ],
   "category": "HoYoverse",
   "launch_patch": "",
-  "runner": "https://dawn.wine/dawn-winery/dwproton/releases/tag/dwproton-11.0-10",
+  "runner": "https://dawn.wine/dawn-winery/dwproton/releases/tag/dwproton-11.0-13",
   "anti_cheat": "miHoYoProtect",
   "telemetry_block": [
     "log-upload-os.hoyoverse.com",
