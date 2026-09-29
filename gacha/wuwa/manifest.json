@@ -33,6 +33,7 @@
   "launch_patch": "",
   "anti_cheat": "ACE",
   "telemetry_block": [],
+  "args": ["-krqlv=hd"],
   "letter_fallback": "W",
   "uses_temp_dir": false
 }
