@@ -23,12 +23,6 @@
     }
   ],
   "uses_temp_dir": false,
-  "voice_locales": [
-    { "id": "en-us", "label": "English", "folder_name": "English(US)" },
-    { "id": "ja-jp", "label": "Japanese", "folder_name": "Japanese" },
-    { "id": "ko-kr", "label": "Korean", "folder_name": "Korean" },
-    { "id": "zh-cn", "label": "Chinese", "folder_name": "Chinese" }
-  ],
   "default_library_template": "{home}/Games/HoYo",
   "install_folder_name": "Honkai Impact 3rd",
   "category": "HoYoverse",
