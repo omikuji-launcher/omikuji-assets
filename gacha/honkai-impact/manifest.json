@@ -25,6 +25,15 @@
   "uses_temp_dir": false,
   "default_library_template": "{home}/Games/HoYo",
   "install_folder_name": "Honkai Impact 3rd",
+  "options": [
+    {
+      "id": "timeout_fix",
+      "label": "Timeout fix",
+      "description": "Try enabling this if your game crashes on boot",
+      "env": { "WINE_TIMEOUT_FIX": "1", "UMU_USE_STEAM": "1" },
+      "at_install": false
+    }
+  ],
   "category": "HoYoverse",
   "launch_patch": "",
   "anti_cheat": "miHoYoProtect",
