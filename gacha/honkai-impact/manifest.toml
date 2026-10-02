@@ -1,0 +1,39 @@
+schema_version = 2
+id = "hoyoverse.honkai-impact"
+game_slug = "honkai-impact"
+display_name = "Honkai Impact 3rd"
+publisher = "HoYoverse"
+category = "HoYoverse"
+app_id_prefix = "honkai-impact"
+letter_fallback = "H"
+
+install_strategy = "hoyo_sophon"
+uses_temp_dir = false
+install_folder_name = "Honkai Impact 3rd"
+default_library_template = "{home}/Games/HoYo"
+exe_name = "BH3.exe"
+data_folder = "BH3_Data"
+
+anti_cheat = "miHoYoProtect"
+telemetry_block = [
+    "log-upload-os.hoyoverse.com",
+    "sg-public-data-api.hoyoverse.com",
+    "bh3-log-upload-os.hoyoverse.com",
+]
+
+[[editions]]
+id = "global"
+label = "Global"
+strategy_config = { biz_id = "5TIVvvcwtM" }
+
+[[editions]]
+id = "china"
+label = "China"
+strategy_config = { biz_id = "osvnlOc0S8" }
+
+[[options]]
+id = "timeout_fix"
+label = "Timeout fix"
+description = "Try enabling this if your game crashes on boot"
+at_install = false
+env = { WINE_ENABLE_TIMEOUT_FIX = "1", UMU_USE_STEAM = "1" }

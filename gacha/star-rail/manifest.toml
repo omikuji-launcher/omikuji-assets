@@ -1,0 +1,58 @@
+schema_version = 2
+id = "hoyoverse.star-rail"
+game_slug = "star-rail"
+display_name = "Honkai: Star Rail"
+publisher = "HoYoverse"
+category = "HoYoverse"
+app_id_prefix = "star-rail"
+letter_fallback = "H"
+
+install_strategy = "hoyo_sophon"
+uses_temp_dir = false
+install_folder_name = "Honkai Star Rail"
+default_library_template = "{home}/Games/HoYo"
+exe_name = "StarRail.exe"
+data_folder = "StarRail_Data"
+
+voice_dir = "Persistent/Audio/AudioPackage/Windows"
+voice_locales = [
+    { id = "en-us", label = "English", short = "EN", folder_name = "English" },
+    { id = "ja-jp", label = "Japanese", short = "JP", folder_name = "Japanese" },
+    { id = "ko-kr", label = "Korean", short = "KR", folder_name = "Korean" },
+    { id = "zh-cn", label = "Chinese", short = "CN", folder_name = "Chinese(PRC)" },
+]
+
+runner = "https://dawn.wine/dawn-winery/dwproton/releases/tag/dwproton-11.0-13"
+anti_cheat = "miHoYoProtect"
+telemetry_block = [
+    "log-upload-os.hoyoverse.com",
+    "sg-public-data-api.hoyoverse.com",
+    "hkrpg-log-upload-os.hoyoverse.com",
+]
+
+[[editions]]
+id = "global"
+label = "Global"
+strategy_config = { biz_id = "4ziysqXOQ8" }
+
+[[editions]]
+id = "china"
+label = "China"
+strategy_config = { biz_id = "64kMb5iAWu" }
+
+[[options]]
+id = "hsrfps"
+label = "120 FPS"
+
+[options.companion]
+name = "hsrfps"
+repo = "https://github.com/reakjra/hsrfps"
+exe = "hsrfps.exe"
+when = "before"
+
+[[options]]
+id = "timeout_fix"
+label = "Timeout fix"
+description = "Try enabling this if your game crashes on boot"
+at_install = false
+env = { WINE_ENABLE_TIMEOUT_FIX = "1", UMU_USE_STEAM = "1" }

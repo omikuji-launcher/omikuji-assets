@@ -1,0 +1,38 @@
+schema_version = 2
+id = "hypergryph.endfield"
+game_slug = "endfield"
+display_name = "Arknights: Endfield"
+publisher = "Hypergryph"
+category = "Gryphline"
+app_id_prefix = "endfield"
+letter_fallback = "A"
+
+install_strategy = "gryphline_resource_patch"
+install_folder_name = "ArknightsEndfield"
+default_library_template = "{home}/Games"
+exe_name = "Endfield.exe"
+data_folder = "Endfield_Data"
+
+anti_cheat = "ACE"
+
+[[editions]]
+id = "global"
+label = "Global"
+
+[editions.strategy_config]
+api_base = "https://launcher.gryphline.com/api"
+game_appcode = "YDUTE5gscDZ229CW"
+launcher_appcode = "TiaytKBUIEdoEwRT"
+channel = 6
+sub_channel = 6
+
+[[editions]]
+id = "china"
+label = "China"
+
+[editions.strategy_config]
+api_base = "https://launcher.hypergryph.com/api"
+game_appcode = "6LL0KJuqHBVz33WK"
+launcher_appcode = "abYeZZ16BPluCFyT"
+channel = 1
+sub_channel = 1

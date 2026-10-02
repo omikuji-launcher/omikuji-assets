@@ -1,6 +1,5 @@
-{
-  "schema_version": 2,
-  "gachas": [
+schema_version = 3
+gachas = [
     "genshin",
     "star-rail",
     "zzz",
@@ -9,6 +8,5 @@
     "pgr",
     "arknights",
     "stella-sora",
-    "endfield"
-  ]
-}
+    "endfield",
+]
