@@ -10,7 +10,6 @@ letter_fallback = "A"
 install_strategy = "yostar_file_index"
 uses_temp_dir = false
 install_folder_name = "Arknights"
-default_library_template = "{home}/Games"
 exe_name = "Arknights.exe"
 data_folder = "Arknights_Data"
 

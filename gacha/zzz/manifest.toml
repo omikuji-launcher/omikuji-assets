@@ -10,7 +10,6 @@ letter_fallback = "Z"
 install_strategy = "hoyo_sophon"
 uses_temp_dir = false
 install_folder_name = "Zenless Zone Zero"
-default_library_template = "{home}/Games/HoYo"
 exe_name = "ZenlessZoneZero.exe"
 data_folder = "ZenlessZoneZero_Data"
 

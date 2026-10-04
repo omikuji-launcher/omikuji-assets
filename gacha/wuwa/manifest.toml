@@ -10,7 +10,6 @@ letter_fallback = "W"
 install_strategy = "kuro_resource_index"
 uses_temp_dir = false
 install_folder_name = "Wuthering Waves"
-default_library_template = "{home}/Games/KuroGames"
 exe_name = "Client/Binaries/Win64/Client-Win64-Shipping.exe"
 data_folder = "Client/Content"
 

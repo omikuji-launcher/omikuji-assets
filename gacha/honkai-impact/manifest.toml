@@ -10,7 +10,6 @@ letter_fallback = "H"
 install_strategy = "hoyo_sophon"
 uses_temp_dir = false
 install_folder_name = "Honkai Impact 3rd"
-default_library_template = "{home}/Games/HoYo"
 exe_name = "BH3.exe"
 data_folder = "BH3_Data"
 

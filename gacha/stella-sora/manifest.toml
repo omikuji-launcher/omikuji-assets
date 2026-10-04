@@ -10,7 +10,6 @@ letter_fallback = "S"
 install_strategy = "yostar_file_index"
 uses_temp_dir = false
 install_folder_name = "StellaSora"
-default_library_template = "{home}/Games"
 exe_name = "StellaSora.exe"
 data_folder = "StellaSora_Data"
 

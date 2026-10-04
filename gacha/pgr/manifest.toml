@@ -10,7 +10,6 @@ letter_fallback = "P"
 install_strategy = "kuro_resource_index"
 uses_temp_dir = false
 install_folder_name = "Punishing Gray Raven"
-default_library_template = "{home}/Games/KuroGames"
 exe_name = "PGR.exe"
 data_folder = "PGR_Data"
 

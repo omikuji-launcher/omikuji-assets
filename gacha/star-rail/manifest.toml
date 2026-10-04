@@ -10,7 +10,6 @@ letter_fallback = "H"
 install_strategy = "hoyo_sophon"
 uses_temp_dir = false
 install_folder_name = "Honkai Star Rail"
-default_library_template = "{home}/Games/HoYo"
 exe_name = "StarRail.exe"
 data_folder = "StarRail_Data"
 
