@@ -13,6 +13,7 @@ exe_name = "Endfield.exe"
 data_folder = "Endfield_Data"
 
 anti_cheat = "ACE"
+args = ["-launcher_lang=en-us", "-launcher_sub_channel=6"]
 
 [[editions]]
 id = "global"
@@ -35,3 +36,22 @@ game_appcode = "6LL0KJuqHBVz33WK"
 launcher_appcode = "abYeZZ16BPluCFyT"
 channel = 1
 sub_channel = 1
+
+[[options]]
+id = "stepministrator"
+label = "Launcher check"
+required = true
+
+[options.companion]
+name = "stepministrator"
+repo = "https://github.com/reakjra/stepministrator"
+exe = "stepministrator.exe"
+when = "wrap"
+args = [
+    "--api", "https://launcher.gryphline.com/api",
+    "--appcode", "TiaytKBUIEdoEwRT",
+    "--channel", "6",
+    "--sub-channel", "6",
+    "--game", "${game_exe}",
+    "--", "${game_args}",
+]
