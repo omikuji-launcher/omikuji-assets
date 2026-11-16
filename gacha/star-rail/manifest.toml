@@ -21,13 +21,15 @@ voice_locales = [
     { id = "zh-cn", label = "Chinese", short = "CN", folder_name = "Chinese(PRC)" },
 ]
 
-runner = "https://dawn.wine/dawn-winery/dwproton/releases/tag/dwproton-11.0-13"
+runner = "https://dawn.wine/dawn-winery/dwproton"
 anti_cheat = "miHoYoProtect"
 telemetry_block = [
     "log-upload-os.hoyoverse.com",
     "sg-public-data-api.hoyoverse.com",
     "hkrpg-log-upload-os.hoyoverse.com",
 ]
+
+strategy_config = { download_blacklist = "StarRail_Data/Persistent/DownloadBlacklist.json" }
 
 [[editions]]
 id = "global"
